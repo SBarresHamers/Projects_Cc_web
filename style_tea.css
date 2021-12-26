@@ -1,0 +1,129 @@
+/* Universal Styles */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color:  black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+/* Header content */
+.header_container {
+    display: flex;
+    height: 61px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid seashell; 
+    align-items: center;
+    z-index: 1;
+    background-color: black;
+
+    /* add more spacing top so that when you scrol down the header is full*/
+}
+
+.Logo {
+  justify-content: flex-start;
+  height: 50px;
+  padding-right: 10px;
+  z-index: 2;
+}
+
+.header_container nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-grow: 2;
+    text-align: right;
+    justify-content: flex-end;
+    margin-right: 15px;
+    gap: 10px;
+}
+
+#navigation_bar ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+}
+
+
+/* mission */
+#mission_banner {
+  display: flex;
+  padding: 4.0rem 1.5rem;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+
+#mission {
+  position: absolute;
+  display: flex;
+  width: 1200px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 150px;
+}
+
+/* Tea of the Month */
+.month_container{
+  display: flex;
+  width: 1000px;
+  padding-left: 200px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.picture{
+  width: 300px;
+  height: 200px;
+}
+
+/* Second row needs to be alligned to the center, still need to figure it out */
+
+/* Locations */
+.locations {
+  background-image: url("../Images/img-locations-background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  padding: 4.0rem 1.5rem;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#location_header{
+  position: absolute;
+  top: 140px;
+  width: 200px;
+  display: flex;
+
+}
+
+.location_store{
+  width: 300px;
+  background-color: black;
+  padding-right: 40px;
+  opacity: 1;
+}
+
+.Contact_info{
+  height: 200px;
+}
+
+.copyright{
+  display: flex;
+  text-align: left;
+  padding: 0px 0px 30px 20px;
+  float: left;
+}
